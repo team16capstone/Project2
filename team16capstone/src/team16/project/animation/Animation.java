@@ -28,6 +28,11 @@ public class Animation implements Serializable{
 	public void setRotateData(Rotate rotate){
 		this.rotate = rotate;
 	}
+	
+	public Rotate getRotate(){
+		return rotate;
+	}
+	
 	public void setBounce(Bounce bounce){
 		this.bounce = bounce;
 	}

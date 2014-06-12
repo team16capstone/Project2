@@ -171,11 +171,11 @@ public class Controller{
                 }
             	else if (e.getActionCommand().matches("color"))
                 {
-                	view.setShapeColor(	JColorChooser.showDialog(view, "Choose Shape Colour", Color.white));
+            		chooseColor();
                 }
             	else if (e.getActionCommand().matches("backColor"))
                 {
-                	view.setBackColor(	JColorChooser.showDialog(view, "Choose Background Colour", Color.white));
+            		chooseBackground();
                 }
             	else if (e.getActionCommand().matches("undo"))
                 {
@@ -279,11 +279,11 @@ public class Controller{
                 }
             	else if (e.getActionCommand().matches("Shape Color"))
                 {
-                	view.setShapeColor(	JColorChooser.showDialog(view, "Choose Shape Colour", Color.white));
+            		chooseColor();
                 }
             	else if (e.getActionCommand().matches("Background Color"))
                 {
-                	view.setBackColor(	JColorChooser.showDialog(view, "Choose Shape Colour", Color.white));
+            		chooseBackground();
                 }
             	else if (e.getActionCommand().matches("Undo"))
                 {
@@ -492,5 +492,17 @@ public class Controller{
     	if(getLastShapePosition()>=0)
     		view.getGlistener().getShapes()[getLastShapePosition()].getTail().toggleTail();
 	}
+    
+    public void chooseColor(){
+    	Color a = JColorChooser.showDialog(view, "Choose Shape Colour", Color.white);
+    	if(a != null)
+    	view.setShapeColor(a);
+    }
+    
+    public void chooseBackground(){
+    	Color a = JColorChooser.showDialog(view, "Choose Shape Colour", Color.white);
+    	if(a != null)
+    	view.setBackColor(a);
+    }
 
 }

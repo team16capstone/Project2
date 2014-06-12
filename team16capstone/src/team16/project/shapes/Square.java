@@ -131,7 +131,26 @@ public void drawSquare(GL2 gl2, float angle){
 	
 	@Override
 	public void drawWithTail(GL2 gl2, float angle,int x, int y, int index, Color background) {
-
+		if(squareAnimation.getRotate().getState())
+		if(squareAnimation.getRotate().getd2D3D()){
+    		gl2.glTranslatef((float)squareAnimation.getTail().getTail()[index].getX(), (float)squareAnimation.getTail().getTail()[index].getY(), 0);
+    		if(squareAnimation.getRotate().getDirection()){
+    			angle = angle*-1;
+    		}
+    		angle = angle*squareAnimation.getRotate().getSpeed();
+    		gl2.glRotatef(angle/10, 1, -1, 0);
+    		gl2.glTranslatef(-(float)squareAnimation.getTail().getTail()[index].getX(), -(float)squareAnimation.getTail().getTail()[index].getY(), 0);
+		}
+		else{
+    		gl2.glTranslatef((float)squareAnimation.getTail().getTail()[index].getX(), (float)squareAnimation.getTail().getTail()[index].getY(), 0);
+    		if(squareAnimation.getRotate().getDirection()){
+    			angle = angle*-1;
+    		}
+    		angle = angle*squareAnimation.getRotate().getSpeed();
+    		gl2.glRotatef(angle/10, 0, 0, 1);
+    		gl2.glTranslatef(-(float)squareAnimation.getTail().getTail()[index].getX(), -(float)squareAnimation.getTail().getTail()[index].getY(), 0);
+		}
+		
 //		squareAnimation.doAnimations(gl2, this, angle);
 		gl2.glEnable(GL2.GL_COLOR_MATERIAL_PARAMETER);
 	    gl2.glColor3f((float)((fade(rgb,background,(float)index)).getRed())/(float)255,

@@ -118,7 +118,7 @@ public class Menu extends JMenuBar {
     	wave.setMnemonic('W');
     	
     	/**Add Effects Menu Shortcuts*/
-    	effects.setMnemonic('F');
+    	effects.setMnemonic('S');
     	rotate.setMnemonic('R');
     	bounce.setMnemonic('B');
     	motionPath.setMnemonic('P');

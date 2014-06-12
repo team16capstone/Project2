@@ -1,10 +1,12 @@
 package team16.project.animation;
 
 import java.awt.Point;
+import java.io.Serializable;
 
 import team16.project.shapes.Shape;
 
-public class Tail {
+public class Tail implements Serializable{
+	private static final long serialVersionUID = 1L;
 	Point[] tail = new Point[10];
 	Boolean active = false;
 	public Tail(Boolean active, Shape t){

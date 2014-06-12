@@ -122,13 +122,55 @@ public void drawCross(GL2 gl2, float angle){
 	}
 	
 	@Override
-	public void drawWithTail(GL2 gl2, float angle,int x, int y, int index, Color background) {
+	public void drawWithTail(GL2 gl2, float angle,int xpos, int ypos, int index, Color background) {
+		if(crossAnimation.getRotate().getState())
+		if(crossAnimation.getRotate().getd2D3D()){
+    		gl2.glTranslatef((float)crossAnimation.getTail().getTail()[index].getX(), (float)crossAnimation.getTail().getTail()[index].getY(), 0);
+    		if(crossAnimation.getRotate().getDirection()){
+    			angle = angle*-1;
+    		}
+    		angle = angle*crossAnimation.getRotate().getSpeed();
+    		gl2.glRotatef(angle/10, 1, -1, 0);
+    		gl2.glTranslatef((float)-crossAnimation.getTail().getTail()[index].getX(), (float)-crossAnimation.getTail().getTail()[index].getY(), 0);
+		}
+		else{
+    		gl2.glTranslatef((float)crossAnimation.getTail().getTail()[index].getX(), (float)crossAnimation.getTail().getTail()[index].getY(), 0);
+    		if(crossAnimation.getRotate().getDirection()){
+    			angle = angle*-1;
+    		}
+    		angle = angle*crossAnimation.getRotate().getSpeed();
+    		gl2.glRotatef(angle/10, 0, 0, 1);
+    		gl2.glTranslatef((float)-crossAnimation.getTail().getTail()[index].getX(), (float)-crossAnimation.getTail().getTail()[index].getY(), 0);
+		}
 		
+	    gl2.glColor3f((float)((fade(rgb,background,(float)index)).getRed())/(float)255,
+	    		(float)((fade(rgb,background,(float)index)).getGreen())/(float)255,
+	    		(float)((fade(rgb,background,(float)index)).getBlue())/(float)255);
+	    gl2.glLineWidth((float)thickness);
+		gl2.glBegin(GL2.GL_LINE_LOOP);
+		gl2.glVertex2d(xpos,ypos);
+		gl2.glVertex2d(xpos,ypos-nsize);
+		gl2.glVertex2d(xpos,ypos+nsize);
+		gl2.glVertex2d(xpos,ypos);
+		gl2.glVertex2d(xpos-nsize,ypos);
+		gl2.glVertex2d(xpos+nsize,ypos);
+		gl2.glVertex2d(xpos,ypos);
+		gl2.glEnd();	
 	}
 	
-	@SuppressWarnings("unused")
-	private Color fade(Color c, int i){
-		c = new Color((float)c.getRed()/(float)255,(float)c.getGreen()/(float)255,(float)c.getBlue()/(float)255,(float)i/(float)10);
-		return c;
+	private Color fade(Color sColor, Color bColor, float fraction)
+	{
+	    float r = calcFade((float)sColor.getRed(), (float)bColor.getRed(), (float)fraction/(float)10);
+	    float g = calcFade((float)sColor.getGreen(), (float)bColor.getGreen(), (float)fraction/(float)10);
+	    float b = calcFade((float)sColor.getBlue(), (float)bColor.getBlue(), (float)fraction/(float)10);
+	    return new Color((float)r/(float)255, (float)g/(float)255, (float)b/(float)255);
+	}
+
+	private float calcFade(float d1, float d2, float fraction)
+	{
+		if(d1>d2)
+			return (float)Math.abs(d1 - ((d1 - d2) * fraction));
+		else
+			return (float)Math.abs(d1 + ((d1 - d2) * fraction));
 	}
 }

@@ -28,7 +28,7 @@ public class Glistener implements GLEventListener{
     int i= 0,tailCounter = 0;
 	public Glistener(GLJPanel canvas) {
 		this.canvas = canvas;
-
+		back = Color.white;
 		}
 
 	@Override
@@ -70,16 +70,18 @@ public class Glistener implements GLEventListener{
                     	shapes[i].getTail().update(shapes[i].getX(), shapes[i].getY());
                     }
             		for(int j = 9; j>=0;j--){
+            	    	gl2.glLoadIdentity();
+
                         if(shapes[i].getType().equals("square"))
                         	((Square)shapes[i]).drawWithTail(gl2, angle, (int)shapes[i].getTail().getTail()[j].getX(), (int)shapes[i].getTail().getTail()[j].getY(), j, back);
-//                        else if(shapes[i].getTail().getTail()[j].getType().equals("circle"))
-//                        	((Circle)shapes[i].getTail().getTail()[j]).drawCircle(gl2, angle);
-//                        else if(shapes[i].getTail().getTail()[j].getType().equals("cross"))
-//                        	((Cross)shapes[i].getTail().getTail()[j]).drawCross(gl2, angle);
-//                        else if(shapes[i].getTail().getTail()[j].getType().equals("star"))
-//                        	((Star)shapes[i].getTail().getTail()[j]).drawStar(gl2, angle);
-//                        else if(shapes[i].getTail().getTail()[j].getType().equals("wave"))
-//                        	((Wave)shapes[i].getTail().getTail()[j]).drawWave(gl2, angle);
+                        else if(shapes[i].getType().equals("circle"))
+                        	((Circle)shapes[i]).drawWithTail(gl2, angle, (int)shapes[i].getTail().getTail()[j].getX(), (int)shapes[i].getTail().getTail()[j].getY(), j, back);
+                        else if(shapes[i].getType().equals("cross"))
+                        	((Cross)shapes[i]).drawWithTail(gl2, angle, (int)shapes[i].getTail().getTail()[j].getX(), (int)shapes[i].getTail().getTail()[j].getY(), j, back);
+                        else if(shapes[i].getType().equals("star"))
+                        	((Star)shapes[i]).drawWithTail(gl2, angle, (int)shapes[i].getTail().getTail()[j].getX(), (int)shapes[i].getTail().getTail()[j].getY(), j, back);
+                        else if(shapes[i].getType().equals("wave"))
+                        	((Wave)shapes[i]).drawWithTail(gl2, angle, (int)shapes[i].getTail().getTail()[j].getX(), (int)shapes[i].getTail().getTail()[j].getY(), j, back);
             		}
             	}
         }
@@ -188,10 +190,6 @@ public class Glistener implements GLEventListener{
 	
 	public void setShapes(Shape[] shapes){
 		this.shapes = shapes;
-	}
-	
-	public Square getShape(){
-		return (Square)shapes[0];
 	}
 	
 	public void loadShape(Square shape){
