@@ -82,23 +82,23 @@ public class MyMouseListener implements MouseListener{
 				view.setMotion(false);
 				rP = false;
 				switch (getShape()){
-				case "circle":
-					((Circle)getLastShape()).getAnimation().setMotionPath(new MotionPath(true, view.getMMListener().getMP().getPath()));
-					((Circle)getLastShape()).getAnimation().getMotionPath().setMax();
-				break;
-				case "square":
-					((Square)getLastShape()).getAnimation().setMotionPath(new MotionPath(true, view.getMMListener().getMP().getPath()));
-					((Square)getLastShape()).getAnimation().getMotionPath().setMax();
-				break;
-				case "star":
-					((Star)getLastShape()).getAnimation().setMotionPath(new MotionPath(true, view.getMMListener().getMP().getPath()));
-					((Star)getLastShape()).getAnimation().getMotionPath().setMax();
-				break;
-				case "cross":
+				case 1:
 					((Cross)getLastShape()).getAnimation().setMotionPath(new MotionPath(true, view.getMMListener().getMP().getPath()));
 					((Cross)getLastShape()).getAnimation().getMotionPath().setMax();
 				break;
-				case "wave":
+				case 2:
+					((Circle)getLastShape()).getAnimation().setMotionPath(new MotionPath(true, view.getMMListener().getMP().getPath()));
+					((Circle)getLastShape()).getAnimation().getMotionPath().setMax();
+				break;
+				case 3:
+					((Square)getLastShape()).getAnimation().setMotionPath(new MotionPath(true, view.getMMListener().getMP().getPath()));
+					((Square)getLastShape()).getAnimation().getMotionPath().setMax();
+				break;
+				case 4:
+					((Star)getLastShape()).getAnimation().setMotionPath(new MotionPath(true, view.getMMListener().getMP().getPath()));
+					((Star)getLastShape()).getAnimation().getMotionPath().setMax();
+				break;
+				case 5:
 					((Wave)getLastShape()).getAnimation().setMotionPath(new MotionPath(true, view.getMMListener().getMP().getPath()));
 					((Wave)getLastShape()).getAnimation().getMotionPath().setMax();
 				break;
@@ -132,17 +132,17 @@ public class MyMouseListener implements MouseListener{
 	}	
 	
 	
-	public String getShape(){
+	public int getShape(){
 		if(view.getGlistener().getShapes()[getLastShapePosition()].getType().equals("cross"))
-			return "cross";
+			return 1;
 		else if(view.getGlistener().getShapes()[getLastShapePosition()].getType().equals("circle"))
-			return "circle";
+			return 2;
 		else if(view.getGlistener().getShapes()[getLastShapePosition()].getType().equals("square"))
-			return "square";
+			return 3;
 		else if(view.getGlistener().getShapes()[getLastShapePosition()].getType().equals("star"))
-			return "star";
+			return 4;
 		else
-			return "wave";
+			return 5;
 		}
 	
 	public Shape getLastShape(){

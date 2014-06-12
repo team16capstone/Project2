@@ -2,34 +2,35 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/gluegen-rt.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/jogl-all.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/jogl-awt.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_recording/slf4j-api-1.7.7.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_recording/slf4j-nop-1.7.7.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_recording/xuggle-xuggler-5.4.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/gluegen-rt-android.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/gluegen-rt-natives-android-armv6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/gluegen-rt-natives-linux-amd64.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/gluegen-rt-natives-linux-armv6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/gluegen-rt-natives-linux-armv6hf.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/gluegen-rt-natives-linux-i586.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/gluegen-rt-natives-macosx-universal.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/gluegen-rt-natives-solaris-amd64.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/gluegen-rt-natives-solaris-i586.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/gluegen-rt-natives-windows-amd64.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/gluegen-rt-natives-windows-i586.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/jogl-all-android.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/jogl-all-mobile.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/jogl-all-natives-android-armv6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/jogl-all-natives-linux-amd64.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/jogl-all-natives-linux-armv6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/jogl-all-natives-linux-armv6hf.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/jogl-all-natives-linux-i586.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/jogl-all-natives-macosx-universal.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/jogl-all-natives-solaris-amd64.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/jogl-all-natives-solaris-i586.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/jogl-all-natives-windows-amd64.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/jogl-all-natives-windows-i586.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/gluegen-rt.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/jogl-all.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/jogl-awt.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_recording/slf4j-api-1.7.7.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_recording/slf4j-nop-1.7.7.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_recording/xuggle-xuggler-5.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/gluegen-rt-android.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/gluegen-rt-natives-android-armv6.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/gluegen-rt-natives-linux-amd64.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/gluegen-rt-natives-linux-armv6.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/gluegen-rt-natives-linux-armv6hf.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/gluegen-rt-natives-linux-i586.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/gluegen-rt-natives-macosx-universal.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/gluegen-rt-natives-solaris-amd64.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/gluegen-rt-natives-solaris-i586.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/gluegen-rt-natives-windows-amd64.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/gluegen-rt-natives-windows-i586.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/jogl-all-android.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/jogl-all-mobile.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/jogl-all-natives-android-armv6.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/jogl-all-natives-linux-amd64.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/jogl-all-natives-linux-armv6.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/jogl-all-natives-linux-armv6hf.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/jogl-all-natives-linux-i586.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/jogl-all-natives-macosx-universal.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/jogl-all-natives-solaris-amd64.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/jogl-all-natives-solaris-i586.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/jogl-all-natives-windows-amd64.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/jogl-all-natives-windows-i586.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre6"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
