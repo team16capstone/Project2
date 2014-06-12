@@ -2,7 +2,11 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/OpenGL"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Recording"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/gluegen-rt.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/jogl-all.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/jogl-awt.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_recording/slf4j-api-1.7.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_recording/slf4j-nop-1.7.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_recording/xuggle-xuggler-5.4.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
