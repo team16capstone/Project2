@@ -8,5 +8,16 @@
 	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_recording/slf4j-api-1.7.7.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_recording/slf4j-nop-1.7.7.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_recording/xuggle-xuggler-5.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/gluegen-rt-android.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/gluegen-rt-natives-android-armv6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/gluegen-rt-natives-linux-amd64.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/gluegen-rt-natives-linux-armv6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/gluegen-rt-natives-linux-armv6hf.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/gluegen-rt-natives-linux-i586.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/gluegen-rt-natives-macosx-universal.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/gluegen-rt-natives-solaris-amd64.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/gluegen-rt-natives-solaris-i586.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/gluegen-rt-natives-windows-amd64.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/gluegen-rt-natives-windows-i586.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
