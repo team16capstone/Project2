@@ -19,5 +19,17 @@
 	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/gluegen-rt-natives-solaris-i586.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/gluegen-rt-natives-windows-amd64.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/gluegen-rt-natives-windows-i586.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/jogl-all-android.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/jogl-all-mobile.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/jogl-all-natives-android-armv6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/jogl-all-natives-linux-amd64.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/jogl-all-natives-linux-armv6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/jogl-all-natives-linux-armv6hf.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/jogl-all-natives-linux-i586.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/jogl-all-natives-macosx-universal.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/jogl-all-natives-solaris-amd64.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/jogl-all-natives-solaris-i586.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/jogl-all-natives-windows-amd64.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/git/Project2/team16capstone/lib/jogl_OpenGL/jogl-all-natives-windows-i586.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
